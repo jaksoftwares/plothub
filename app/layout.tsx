@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Logo } from "@/components/ui/logo";
-import Link from "next/link";
+import { SiteHeader } from "@/components/layout/site-header";
+import { SiteFooter } from "@/components/layout/site-footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -32,16 +32,11 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col font-sans">
         <TooltipProvider>
-          <header className="border-b border-border bg-background">
-            <div className="mx-auto flex h-16 max-w-[1440px] items-center px-6">
-              <Link href="/">
-                <Logo variant="horizontal" theme="primary" size={24} />
-              </Link>
-            </div>
-          </header>
+          <SiteHeader />
           <main className="mx-auto w-full max-w-[1440px] flex-1">
             {children}
           </main>
+          <SiteFooter />
         </TooltipProvider>
       </body>
     </html>
