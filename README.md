@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="PlotHub Logo" width="200" />
+  <img src="public/logos/primary-symbol.png" alt="PlotHub Logo" width="200" />
 
   # PlotHub
   
@@ -17,13 +17,13 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 PlotHub is not just a classifieds platform—it is a modern digital real estate ecosystem built on trust. It supports multiple user types, ranging from individual first-time land buyers to enterprise property developers and government agencies. 
 
 The platform offers a state-of-the-art **Public Marketplace** for discovery, and comprehensive **Vendor & Buyer Workspaces** for identity management, team collaboration, and transaction tracking.
 
-## ✨ Features
+##  Features
 
 ### For Buyers
 - **Smart Discovery**: Advanced filters (location, price, zoning, amenities) with a highly interactive Map Explorer.
@@ -49,7 +49,7 @@ PlotHub is built with a modern, high-performance web architecture:
 - **Forms & Validation**: React Hook Form, Zod
 - **Icons & Animations**: Lucide React, Framer Motion
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ Ensure you have the following installed on your local machine:
    ```
    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```plaintext
 plothub/
@@ -104,11 +104,11 @@ plothub/
 └── package.json          # Project dependencies and scripts
 ```
 
-## 📜 Documentation
+##  Documentation
 
 Detailed project specifications, including brand guidelines, identity management rules, and marketplace flows, can be found in the `/public/DOCS/` directory.
 
 ---
 <div align="center">
-  <sub>Built with ❤️ for modern real estate.</sub>
+  <sub>Built for modern real estate.</sub>
 </div>
